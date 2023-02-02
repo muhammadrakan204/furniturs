@@ -11,24 +11,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;400;500;700&family=Cinzel+Decorative&family=Comfortaa:wght@400;600&family=Corinthia&family=Henny+Penny&family=Josefin+Sans:wght@200;300;400;500;700&family=Lato:wght@300;400;900&family=MedievalSharp&family=Mulish:wght@200;300;700&family=Orbitron:wght@500&family=Overlock+SC&family=Poppins:wght@200;300;400;500&family=Quicksand&family=Raleway:wght@500&family=Zilla+Slab:wght@500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;400;500;700&family=Cinzel+Decorative&family=Comfortaa:wght@400;600&family=Corinthia&family=Henny+Penny&family=Josefin+Sans:wght@200;300;400;500;700&family=Lato:wght@300;400;900&family=MedievalSharp&family=Mulish:wght@200;300;700&family=Orbitron:wght@500&family=Overlock+SC&family=Poppins:wght@200;300;400;500&family=Quicksand&family=Raleway:wght@500&family=Rasa:wght@300;400&family=Zilla+Slab:wght@500&display=swap"
       rel="stylesheet"
     />
+    <!-- remix icon -->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/46097d5f82.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="navbar">
       <div class="navbar-nav">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Collections</a>
-        <a href="">Contact</a>
+        <a href="" class="linkNav">Home</a>
+        <a href="" class="linkNav">About</a>
+        <a href="" class="linkNav">Collections</a>
+        <a href="" class="linkNav">Contact</a>
       </div>
       <div class="navbar-extra">
-        <i class="ri-menu-4-line" id="hamburger"></i>
+        <!-- <i class="ri-menu-4-line" id="hamburger"></i> -->
+        <div class="hamburger-menu">
+          <div class="satu"></div>
+          <div class="dua"></div>
+          <div class="tiga"></div>
+        </div>
       </div>
     </div>
 
@@ -41,13 +53,75 @@
         <div class="tagline">
           <p>Design your home</p>
           <p>with passion</p>
-          <button>View Project</button>
+          <button>
+            View Project <span><i class="fa-solid fa-arrow-right"></i></span>
+          </button>
         </div>
       </div>
       <div class="header-kanan">
         <div class="img-header"></div>
       </div>
     </header>
+    <!-- end of header -->
+
+    <!-- big text -->
+    <section id="big-text">
+      <p>Discover inspirations interesting interior design</p>
+    </section>
+    <!-- end of big text -->
+
+    <!-- section 3 -->
+    <section id="sec3">
+      <div class="container-sec3">
+        <div class="left-sec3">
+          <img src="assets/imgSec3(1).jpg" alt="" class="img1" />
+          <img src="assets/imgSec3(2).jpg" alt="" class="img2" />
+          <img src="assets/star.png" alt="" class="star-1 star" />
+          <img src="assets/star.png" alt="" class="star-2 star" />
+          <img src="assets/star.png" alt="" class="star-3 star" />
+        </div>
+        <div class="right-sec3">
+          <div class="content-right-sec3">
+            <p>We <span>create</span> tailor made <span>interiors</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of section 3 -->
+
+    <!-- section 4 -->
+    <section id="sec4">
+      <div class="container-sec4">
+        <div class="left-sec4 sofa">
+          <div class="container-img-left">
+            <img src="assets/sofa.jpg" alt="" class="img-left" />
+          </div>
+          <div class="text-left">
+            <p class="title-sec4">A natural color</p>
+            <p class="desc-sec4">Natural color but with elegant style</p>
+          </div>
+        </div>
+        <div class="right-sec4">
+          <div class="text-stairs">
+            <p class="title-sec4">Minimalist room</p>
+            <p class="desc-sec4">Eye-catching decoration</p>
+          </div>
+          <div class="container-img-stairs">
+            <img src="assets/stairs.jpg" alt="" class="img-stairs" />
+          </div>
+        </div>
+        <div class="left-sec4 bathroom">
+          <div class="container-img-left">
+            <img src="assets/bathroom.jpg" alt="" class="img-left" />
+          </div>
+          <div class="text-left">
+            <p class="title-sec4">Simple bathroom</p>
+            <p class="desc-sec4">Classic but luxurious</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of section 4 -->
 
     <script src="script.js"></script>
   </body>
