@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;400;500;700&family=Cinzel+Decorative&family=Comfortaa:wght@400;600&family=Corinthia&family=Henny+Penny&family=Josefin+Sans:wght@200;300;400;500;700&family=Lato:wght@300;400;900&family=MedievalSharp&family=Mulish:wght@200;300;700&family=Orbitron:wght@500&family=Overlock+SC&family=Poppins:wght@200;300;400;500&family=Quicksand&family=Raleway:wght@500&family=Rasa:wght@300;400&family=Zilla+Slab:wght@500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;400;500;700&family=Cinzel+Decorative&family=Comfortaa:wght@400;600&family=Corinthia&family=Henny+Penny&family=Itim&family=Josefin+Sans:wght@200;300;400;500;700&family=Lato:wght@300;400;900&family=MedievalSharp&family=Mulish:wght@200;300;700&family=Orbitron:wght@500&family=Overlock+SC&family=Poppins:wght@200;300;400;500&family=Quicksand:wght@400;500&family=Raleway:wght@500&family=Rasa:wght@300;400&family=Zilla+Slab:wght@500&display=swap"
       rel="stylesheet"
     />
     <!-- remix icon -->
@@ -51,8 +51,9 @@
           <p>Interiurs</p>
         </div>
         <div class="tagline">
-          <p>Design your home</p>
-          <p>with passion</p>
+          <div class="tagline-wrapper">
+            <p>Design your home with passion</p>
+          </div>
           <button>
             View Project <span><i class="fa-solid fa-arrow-right"></i></span>
           </button>
@@ -76,9 +77,6 @@
         <div class="left-sec3">
           <img src="assets/imgSec3(1).jpg" alt="" class="img1" />
           <img src="assets/imgSec3(2).jpg" alt="" class="img2" />
-          <img src="assets/star.png" alt="" class="star-1 star" />
-          <img src="assets/star.png" alt="" class="star-2 star" />
-          <img src="assets/star.png" alt="" class="star-3 star" />
         </div>
         <div class="right-sec3">
           <div class="content-right-sec3">
@@ -94,7 +92,7 @@
       <div class="container-sec4">
         <div class="left-sec4 sofa">
           <div class="container-img-left">
-            <img src="assets/sofa.jpg" alt="" class="img-left" />
+            <img src="assets/sofa.jpg" alt="" class="img-left img-sofa" />
           </div>
           <div class="text-left">
             <p class="title-sec4">A natural color</p>
@@ -119,9 +117,65 @@
             <p class="desc-sec4">Classic but luxurious</p>
           </div>
         </div>
+        <div class="button-sec4">
+          <button>View catalog <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
       </div>
     </section>
     <!-- end of section 4 -->
+
+    <!-- map -->
+    <section id="map">
+      <div class="container-map">
+        <div class="img-map">
+          <img src="assets/map.png" alt="" />
+        </div>
+        <div class="countries-wrapper">
+          <h1>Trusted by Many Countries</h1>
+          <div class="countries">
+            <p class="border">Europe <br /><span>45%</span></p>
+            <p class="border">
+              America <br />
+              <span>35%</span>
+            </p>
+            <p>
+              Asia <br />
+              <span>20%</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of map -->
+
+    <!-- Promotion -->
+    <section id="promotion">
+      <marquee>GET A CHANGE TO WIN 25% DISCOUNT</marquee>
+    </section>
+    <!-- End of promotion -->
+
+    <!-- Discount -->
+    <section id="discount">
+      <div class="container-discount">
+        <div class="img-discount">
+          <img src="assets/dicount.jpg" alt="" />
+        </div>
+        <div class="card-discount">
+          <p class="title-discount">
+            SUBSCRIBE TO GET UPDATE ABOUT TO GET LATEST DISCOUNT/OFFER
+          </p>
+          <form action="">
+            <p>Full name</p>
+            <input type="text" class="name-input" />
+            <p>Email</p>
+            <input type="text" class="email-input" />
+          </form>
+          <button class="button-discount">
+            Submit <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
 
     <script src="script.js"></script>
   </body>

@@ -1,9 +1,12 @@
 const navbarNav = document.querySelector(".navbar-nav");
 const linkNav = document.querySelectorAll(".navbar-nav .linkNav");
 const hamburgerMenu = document.querySelector(".hamburger-menu");
+const navA = document.querySelectorAll(".navbar-nav a");
 const satu = document.querySelector(".satu");
 const dua = document.querySelector(".dua");
 const tiga = document.querySelector(".tiga");
+
+console.log(navA);
 
 const animationHamburger = () => {
   hamburgerMenu.addEventListener("click", function (e) {
@@ -30,20 +33,16 @@ window.onscroll = function () {
   changeFont();
 };
 
-const changeFont = () => {
-  const ketinggian = document.documentElement.scrollTop;
-  for (let i = 0; i < linkNav.length; i++) {
-    if (ketinggian > 569) {
-      linkNav[i].addEventListener("mouseover", function () {
-        linkNav[i].style.backgroundColor = "#FFF8EA";
-      });
-      linkNav[i].addEventListener("mouseout", function () {
-        linkNav[i].style.backgroundColor = "";
-      });
-    } else {
-      linkNav[i].addEventListener("mouseover", function () {
-        linkNav[i].style.backgroundColor = "#B1C387";
-      });
-    }
-  }
-};
+// const changeFont = () => {
+//   const ketinggian = document.documentElement.scrollTop;
+//   for (let i = 0; i < navA.length; i++) {
+//     if (ketinggian > 569) {
+//       navA[i].addEventListener("mouseover", function () {
+//         navA[i].style.color = "#FFF8EA";
+//       });
+//       navA[i].addEventListener("mouseout", function () {
+//         navA[i].style.color = "";
+//       });
+//     }
+//   }
+// };
