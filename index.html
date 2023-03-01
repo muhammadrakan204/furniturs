@@ -20,6 +20,9 @@
       rel="stylesheet"
     />
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- font awesome -->
     <script
       src="https://kit.fontawesome.com/46097d5f82.js"
@@ -67,7 +70,23 @@
 
     <!-- big text -->
     <section id="big-text">
-      <p>Discover inspirations interesting interior design</p>
+      <p>
+        <span data-aos="fade-up" data-aos-delay="150" data-aos-duration="1600"
+          >Discover</span
+        >
+        <span data-aos="fade-up" data-aos-delay="150" data-aos-duration="1600"
+          >inspirations</span
+        >
+        <span data-aos="fade-up" data-aos-delay="150" data-aos-duration="1600"
+          >interesting</span
+        >
+        <span data-aos="fade-up" data-aos-delay="150" data-aos-duration="1600"
+          >interior</span
+        >
+        <span data-aos="fade-up" data-aos-delay="150" data-aos-duration="1600"
+          >design</span
+        >
+      </p>
     </section>
     <!-- end of big text -->
 
@@ -176,7 +195,45 @@
         </div>
       </div>
     </section>
+    <!-- End of discount -->
 
+    <!-- Footer -->
+    <footer>
+      <div class="container-footer">
+        <div class="title-footer">
+          <h1>INTERIURS</h1>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-tiktok"></i>
+        </div>
+        <div class="location-footer">
+          <h1>Location</h1>
+          <p class="desc-foot">Jl. Daan Mogot No.62</p>
+          <p class="desc-foot">Banten, Indonesia</p>
+        </div>
+        <div class="links-footer">
+          <h1>Links</h1>
+          <ul>
+            <li><a href="" class="desc-foot">Home</a></li>
+            <li><a href="" class="desc-foot">About</a></li>
+            <li><a href="" class="desc-foot">Collections</a></li>
+            <li><a href="" class="desc-foot">Contact</a></li>
+          </ul>
+        </div>
+        <div class="legal-footer">
+          <h1>Legal</h1>
+          <p class="desc-foot">Privacy Policy</p>
+          <p class="desc-foot">Terms of Conditions</p>
+        </div>
+      </div>
+    </footer>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      AOS.init({
+        once: true,
+      });
+    </script>
   </body>
 </html>
